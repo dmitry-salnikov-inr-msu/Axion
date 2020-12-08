@@ -6,8 +6,7 @@ and a predicted constarint on the axion-photon coupling in an experimental setup
 The physical results are presented in [1].
 
 The numerical integrations in the program are based on package for adaptive multidimensional integration (cubature) 
-of vector-valued integrands over hypercubes, written by Steven G. Johnson (https://github.com/stevengj/cubature), 
-see details in AXIONS/README.md. MPI is used for parallelization. 
+of vector-valued integrands over hypercubes, written by Steven G. Johnson (https://github.com/stevengj/cubature). MPI is used for parallelization. 
 
 The program includes five files: "TMnpq,TEnpq.h", "coupling_constant.h", "energy_density.h", "radiation_pattern.h" and "main.cpp".
 The file "main.cpp" consists of the following functions:
