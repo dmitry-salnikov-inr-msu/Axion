@@ -3,10 +3,11 @@ This is a program for calculating spacial distribution of axion field, generated
 
 In addition to spacial distribution of axion field, the program shows energy distribution of axion field, and a predicted constarint on the axion-photon coupling in an experimental setup with two coaxial cavities. The physical results are presented in [1].
 
-The numerical integrations in the program are based on package for adaptive multidimensional integration (cubature) of vector-valued integrands over hypercubes, written by Steven G. Johnson (https://github.com/stevengj/cubature). MPI is used for parallelization. 
+The numerical integrations in the program are based on package for adaptive multidimensional integration (cubature) of vector-valued integrands over hypercubes, written by Steven G. Johnson (https://github.com/stevengj/cubature). MPI is used for parallelization.
 
 Description of program see in Readme.txt.
------------------------------
+
+-------------------------------
 [1] Dmitry Salnikov, Petr Satunin, D. V. Kirpichnikov, Maxim Fitkevich. 
 Examining axion-like particles with superconducting radio-frequency cavity.
 https://arxiv.org/abs/2011.12871
