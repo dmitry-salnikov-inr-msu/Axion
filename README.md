@@ -9,7 +9,5 @@ Description of program see in Readme.txt.
 
 -------------------------------
 [1] Dmitry Salnikov, Petr Satunin, D. V. Kirpichnikov, Maxim Fitkevich. 
-
 Examining axion-like particles with superconducting radio-frequency cavity.
-
 https://arxiv.org/abs/2011.12871
