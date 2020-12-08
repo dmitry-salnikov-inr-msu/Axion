@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1595310700 source:d:\documents\МГУ\Научная работа\cubature\main.cpp
+	<iostream>
+	<cmath>
+	"cubature.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<limits.h>
+	<float.h>
+	"cubature.h"
+	"converged.h"
+	"vwrapper.h"
+
+1500571523 d:\documents\МГУ\Научная работа\cubature\cubature.h
+	<stdlib.h>
+
+1500571523 d:\documents\МГУ\Научная работа\cubature\converged.h
+
+1500571523 d:\documents\МГУ\Научная работа\cubature\vwrapper.h
+
