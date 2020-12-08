@@ -68,7 +68,7 @@ The following function calculate radiation pattern (0 < theta < pi) for fixed ax
 
 module load openmpi-x86_64
 mpic++ -o Axion main.cpp hcubature.c -lm
-mpirun -np number_of_processes ./AXION &
+mpirun -np number_of_processes ./Axion &
 
 If you want convert data for 2d contour plots in origin matrix format you can use converter.cpp.
 You should name input file "input.txt". You will receive output data in file "output.txt".
