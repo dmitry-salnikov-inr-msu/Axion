@@ -81,6 +81,6 @@ You should calculate formulae (11) in ranges [0 < rho < 5, 0.5*R1 < z < 0.5*R1 +
 
 -----------------------------
 [1] Dmitry Salnikov, Petr Satunin, D. V. Kirpichnikov, Maxim Fitkevich. 
-Examining axion-like particles with superconducting radio-frequency cavity.
+"Examining axion-like particles with superconducting radio-frequency cavity."
 arXiv: https://arxiv.org/abs/2011.12871 
 doi: https://link.springer.com/article/10.1007/JHEP03(2021)143
