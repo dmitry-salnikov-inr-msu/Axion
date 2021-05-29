@@ -214,9 +214,9 @@ double Axion_Energy_Density_TMTE_p(int n1, int p1, int q1, int n2, int p2, int q
    double aCp = TMTE_cos_p(N1,P1,Q1,N2,P2,Q2,R1,L1,Max_TM,Max_TE,m,z,rho,phi,eps);
    double aSp = TMTE_sin_p(N1,P1,Q1,N2,P2,Q2,R1,L1,Max_TM,Max_TE,m,z,rho,phi,eps);
 
-   double drho = h/R1;
-   double dphi = h/(2*pi);
-   double dz   = h/L1;
+   double drho = h*R1;
+   double dphi = h*(2*pi);
+   double dz   = h*L1;
 
    double aCp_rho_p = TMTE_cos_p(N1,P1,Q1,N2,P2,Q2,R1,L1,Max_TM,Max_TE,m,z,rho + drho,phi,eps);
    double aCp_rho_m = TMTE_cos_p(N1,P1,Q1,N2,P2,Q2,R1,L1,Max_TM,Max_TE,m,z,rho - drho,phi,eps);
@@ -274,9 +274,9 @@ double Axion_Energy_Density_TMTE_m(int n1, int p1, int q1, int n2, int p2, int q
    double aCm = TMTE_cos_m(N1,P1,Q1,N2,P2,Q2,R1,L1,Max_TM,Max_TE,m,z,rho,phi,eps);
    double aSm = TMTE_sin_m(N1,P1,Q1,N2,P2,Q2,R1,L1,Max_TM,Max_TE,m,z,rho,phi,eps);
 
-   double drho = h/R1;
-   double dphi = h/(2*pi);
-   double dz   = h/L1;
+   double drho = h*R1;
+   double dphi = h*(2*pi);
+   double dz   = h*L1;
 
    double aCm_rho_p = TMTE_cos_m(N1,P1,Q1,N2,P2,Q2,R1,L1,Max_TM,Max_TE,m,z,rho + drho,phi,eps);
    double aCm_rho_m = TMTE_cos_m(N1,P1,Q1,N2,P2,Q2,R1,L1,Max_TM,Max_TE,m,z,rho - drho,phi,eps);
