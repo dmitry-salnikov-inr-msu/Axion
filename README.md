@@ -8,7 +8,7 @@ The numerical integrations in the program are based on package for adaptive mult
 Description of program see in Readme.txt.
 
 -------------------------------
-[1] Dmitry Salnikov, Petr Satunin, D. V. Kirpichnikov, Maxim Fitkevich. Examining axion-like particles with superconducting radio-frequency cavity.
+[1] Dmitry Salnikov, Petr Satunin, D. V. Kirpichnikov, Maxim Fitkevich. "Examining axion-like particles with superconducting radio-frequency cavity."
 
 arXiv: https://arxiv.org/abs/2011.12871
 
